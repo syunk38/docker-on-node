@@ -1,0 +1,15 @@
+{
+  "name": "docker-node",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "author": "sid",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
