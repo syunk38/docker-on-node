@@ -4,12 +4,23 @@
   "description": "Node.js on Docker",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "test"
+    "start": "node ./dist/index.js",
+    "dev": "nodemon -L",
+    "ts-node": "ts-node",
+    "build": "tsc"
   },
   "author": "sid",
   "license": "ISC",
+  "repository": "git@github.com:syunk38/docker-on-node.git",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.1",
+    "@types/express": "^4.17.2",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.5"
   }
 }
