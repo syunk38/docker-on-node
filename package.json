@@ -13,7 +13,7 @@
   "license": "ISC",
   "repository": "git@github.com:syunk38/docker-on-node.git",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "devDependencies": {
     "@types/node": "^13.7.1",
